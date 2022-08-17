@@ -29,7 +29,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <constraints>
                                     <constraint firstItem="svJ-G8-KtG" firstAttribute="centerY" secondItem="rev-wy-HAb" secondAttribute="centerY" constant="20" id="1cs-XS-AhQ"/>
                                     <constraint firstItem="svJ-G8-KtG" firstAttribute="centerX" secondItem="rev-wy-HAb" secondAttribute="centerX" id="UrI-N1-l8A"/>
@@ -84,9 +84,9 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="qQL-0G-1t8">
-                                <rect key="frame" x="107" y="98" width="200" height="120"/>
+                                <rect key="frame" x="107" y="138" width="200" height="180"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="120" id="Dfy-tw-zkv"/>
+                                    <constraint firstAttribute="height" constant="180" id="Dfy-tw-zkv"/>
                                     <constraint firstAttribute="width" constant="200" id="rvn-P7-V5N"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -102,6 +102,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                         </subviews>
@@ -109,7 +112,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rev-wy-HAb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DIk-tI-u8N"/>
-                            <constraint firstItem="qQL-0G-1t8" firstAttribute="top" secondItem="rev-wy-HAb" secondAttribute="bottom" constant="10" id="EbI-VY-8pM"/>
+                            <constraint firstItem="qQL-0G-1t8" firstAttribute="top" secondItem="rev-wy-HAb" secondAttribute="bottom" constant="50" id="EbI-VY-8pM"/>
                             <constraint firstItem="rev-wy-HAb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="HbH-ki-GxV"/>
                             <constraint firstItem="qQL-0G-1t8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kz8-hO-FuN"/>
                             <constraint firstItem="t8o-zc-TsT" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SXa-Ap-iCd"/>
@@ -135,6 +138,9 @@
         <image name="5" width="1200" height="1191"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
